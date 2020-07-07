@@ -1,0 +1,15 @@
+{
+  "name": "sample-bitcore-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bip32": "^2.0.5",
+    "bip39": "^3.0.2",
+    "ghost-bitcore-lib": "https://github.com/ghost-coin/ghost-bitcore-lib.git",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "example": "node index.js"
+  }
+}
