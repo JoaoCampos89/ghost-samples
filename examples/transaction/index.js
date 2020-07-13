@@ -6,7 +6,7 @@ const PrivateKey = bitcore.PrivateKey;
 const PublicKey = bitcore.PublicKey;
 const Transaction = bitcore.Transaction;
 const Address = bitcore.Address;
-const testnetUtils = require('./testnet').testnetUtils;
+const testnetUtils = require('../../testnettnet').testnetUtils;
 // Testnet network
 const NETWORK  = {
     messagePrefix: '\x18Bitcoin Signed Message:\n',
@@ -37,7 +37,7 @@ const main = async () => {
         'praise you muffin lion enable neck grocery crumble super myself license ghost';
     const seed = bip39.mnemonicToSeedSync(mnemonic);
     const root = bip32.fromSeed(seed, NETWORK);
-    const child = root.derivePath("m/44'/0'/0'/0/0");
+    const child = root.derivePath("m/44'/531'/0'/0/0");
     const privateKey = new PrivateKey.fromWIF(child.toWIF(), 'testnet');
     const publicKey = PublicKey(privateKey, networks.testnet);
     const address = new Address(publicKey, networks.testnet);

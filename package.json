@@ -7,9 +7,13 @@
     "bip32": "^2.0.5",
     "bip39": "^3.0.2",
     "ghost-bitcore-lib": "https://github.com/ghost-coin/ghost-bitcore-lib.git",
+    "bitcore-mnemonic": "https://github.com/ghost-coin/bitcore-mnemonic",
     "node-fetch": "^2.6.0"
   },
   "scripts": {
-    "example": "node index.js"
+    "transaction": "node examples/transaction/index.js",
+    "coldstaking-example1": "node examples/coldstaking/example1.js",
+    "coldstaking-example2": "node examples/coldstaking/example2.js",
+    "coldstaking-example3": "node examples/coldstaking/example3.js"
   }
 }

@@ -54,6 +54,39 @@ bip39@^3.0.2:
     pbkdf2 "^3.0.9"
     randombytes "^2.0.1"
 
+bitcore-lib-cash@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/bitcore-lib-cash/-/bitcore-lib-cash-0.19.0.tgz#357ebc25ae618d3b48be2821e17c74151d539f7b"
+  integrity sha512-JBD30YS5M2OSUPbXggM257FjWXb5A1pHFn88lZQsqOokgddmdwp45K4APVEsj2iaKLR7uLOnGppSbAWj5Hihwg==
+  dependencies:
+    bn.js "=4.11.8"
+    bs58 "=4.0.1"
+    buffer-compare "=1.1.1"
+    elliptic "=6.4.0"
+    inherits "=2.0.1"
+    lodash "=4.17.11"
+
+bitcore-lib@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/bitcore-lib/-/bitcore-lib-0.16.0.tgz#a2c3ec1108cdb90386f728282ab833e0c77c9533"
+  integrity sha512-CEtcrPAH2gwgaMN+OPMJc18TBEak1+TtzMyafrqrIbK9PIa3kat195qBJhC0liJSHRiRr6IE2eLcXeIFFs+U8w==
+  dependencies:
+    bn.js "=4.11.8"
+    bs58 "=4.0.1"
+    buffer-compare "=1.1.1"
+    elliptic "=6.4.0"
+    inherits "=2.0.1"
+    lodash "=4.17.11"
+
+"bitcore-mnemonic@https://github.com/ghost-coin/bitcore-mnemonic":
+  version "1.7.0"
+  resolved "https://github.com/ghost-coin/bitcore-mnemonic#14cfe614a670ed9bc7bc630f681e33248c9fe860"
+  dependencies:
+    bitcore-lib "^0.16.0"
+    bitcore-lib-cash "^0.19.0"
+    ghost-bitcore-lib "git://github.com/ghost-coin/ghost-bitcore-lib.git"
+    unorm "^1.4.1"
+
 bn.js@=4.11.8:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -151,6 +184,19 @@ file-uri-to-path@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
   integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
+
+"ghost-bitcore-lib@git://github.com/ghost-coin/ghost-bitcore-lib.git":
+  version "0.16.0"
+  uid fab0639c35c507b6ac6fc4b40060cff02d4f8ad7
+  resolved "git://github.com/ghost-coin/ghost-bitcore-lib.git#fab0639c35c507b6ac6fc4b40060cff02d4f8ad7"
+  dependencies:
+    bech32-buffer "^0.1.2"
+    bn.js "=4.11.8"
+    bs58 "=4.0.1"
+    buffer-compare "=1.1.1"
+    elliptic "=6.4.0"
+    inherits "=2.0.1"
+    lodash "=4.17.11"
 
 "ghost-bitcore-lib@https://github.com/ghost-coin/ghost-bitcore-lib.git":
   version "0.16.0"
@@ -304,6 +350,11 @@ typeforce@^1.11.5:
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/typeforce/-/typeforce-1.18.0.tgz#d7416a2c5845e085034d70fcc5b6cc4a90edbfdc"
   integrity sha512-7uc1O8h1M1g0rArakJdf0uLRSSgFcYexrVoKo+bzJd32gd4gDy2L/Z+8/FjPnU9ydY3pEnVPtr9FyscYY60K1g==
+
+unorm@^1.4.1:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/unorm/-/unorm-1.6.0.tgz#029b289661fba714f1a9af439eb51d9b16c205af"
+  integrity sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==
 
 util-deprecate@^1.0.1:
   version "1.0.2"
