@@ -6,14 +6,16 @@
   "dependencies": {
     "bip32": "^2.0.5",
     "bip39": "^3.0.2",
-    "ghost-bitcore-lib": "https://github.com/ghost-coin/ghost-bitcore-lib.git",
+    "bitcoinjs-lib": "^5.1.10",
     "bitcore-mnemonic": "https://github.com/ghost-coin/bitcore-mnemonic",
+    "ghost-bitcore-lib": "https://github.com/ghost-coin/ghost-bitcore-lib.git",
     "node-fetch": "^2.6.0"
   },
   "scripts": {
     "transaction": "node examples/transaction/index.js",
     "coldstaking-example1": "node examples/coldstaking/example1.js",
     "coldstaking-example2": "node examples/coldstaking/example2.js",
-    "coldstaking-example3": "node examples/coldstaking/example3.js"
+    "coldstaking-example3": "node examples/coldstaking/example3.js",
+    "atomicswap-example1":  "node examples/atomicswap/example1.js"
   }
 }
